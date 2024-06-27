@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<head><title><About Myself - My Happy Life </title></head>
+<body>
+<header>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  background-color: #FFFFCC;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<div id="navbar">
+  <a href="indexx.html" style="color:white">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+  <a href="myself.html" style="color:white">Myself</a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+  <a href="travel.html" style="color:white">Travel</a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+  <a href="friends.html" style="color:white">Friends</a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+  <a href= "interest.html" style="color:white">Interest</a>&nbsp;&nbsp;&nbsp;</a>
+  <a href="education.html" style="color:white">Education</a>
+</div>
+
+
+
+<a href="indexx.html">
+<center><img src="img/logo.jpg" alt="About Myself - My Happy Life" title="About Myself - My Happy Life"></center>
+
+</a>
+
+</header>
+<hr>
+<nav>
+<table cellspacing="5" cellpadding="5">
+<tr>
+<h2 style="text-align: center; font-family:Century">
+<a href="indexx.html" style="color:#543310">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="myself.html" style="color:#543310">Myself</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="travel.html" style="color:#543310">Travel</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="friends.html"style="color:#543310">Friends</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="interest.html" style="color:#543310">Interest</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="education.html" style="color:#543310">Education</a>
+</tr>
+<td></td>
+</nav>
+
+</table>
+<hr>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+</style>
+<body>
+
+<h2 style="text-align:center">My Interest</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="i1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="i2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="i3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+<div class="column">
+    <img src="i4.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+
+  </div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="i1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="i2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="i3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="i4.jpg" style="width:100%">
+    </div>
+
+        
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="i1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="i2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="i3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+   <div class="column">
+      <img class="demo cursor" src="i4.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+
+      </div>
+</div>
+
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+    <hr>
+            <ul class="myUL">
+                <h2>A Journey Through the Arts: My Passion for Music, Dancing, Theatre, and Makeup</h2>
+                <li>    My life is a colorful quilt woven with the threads of music, dancing, theater, and cosmetics, from the pulsating pulses of a beloved song to the transforming magic of stage makeup. These hobbies not only make me very happy, but they also help to define who I am and how I see the world. This essay explores my love of these creative endeavors and how they have improved my quality of life.</li>
+
+<h2>The Melody of Music & My Favorite Song</h2>
+<li>Music has always been a central part of my life. From a young age, I was captivated by the power of melodies and lyrics to evoke emotions and tell stories. Whether I am playing an instrument, singing, or simply listening to my favorite tunes, music provides a constant source of comfort and inspiration.Through the universal language of music, which knows no boundaries, I have forged connections with individuals from a wide range of cultures and backgrounds. It has expanded my awareness of the human condition and opened my heart to fresh viewpoints.</li>
+<div class="audio-container">
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+
+<h2>The Rhythm of Dancing</h2>
+<li>Another hobby of mine that gives me a great sense of freedom and joy is dancing. The rush I get from moving my body in time with the beat is amazing. I can connect with others, share stories, and communicate feelings via dance without using words.Every dance style, whether it be traditional, hip-hop, or modern, offers a different approach to express creativity and movement. I've learned the value of commitment, practice, and persistence via dancing. As I gain proficiency in new skills and give public performances, it has also assisted me in strengthening my resilience and confidence.</li>
+
+<h2>The Magic of Theatre</h2>
+<li>In the world of theater, imagination and reality coexist harmoniously. My passion for theater comes from its capacity to take viewers to new locations and eras, letting them immerse themselves in other people's lives and narratives. I enjoy taking on new roles as an actor and delving into the complexity of distinct personasI've learned empathy and teamwork from theater. Every production is a team endeavor that calls on the combined skills and commitment of the crew, designers, performers, and directors. It has been tremendously fulfilling to be a member of the theater community because it creates a sense of togetherness and purpose.</li>
+
+<h2>The Artistry of Makeup</h2>
+<li>Makeup is a kind of artistic expression that enables me to change and create, rather than just being a tool for enhancing attractiveness. I enjoy playing around with colors, textures, and makeup techniques for both simple everyday looks and extravagant stage appearances. Makeup may transform a character into something more in a play, give life to fantastical creatures, or just make someone feel more confident in everyday situations.Applying makeup is a creative and contemplative process. It calls for knowledge of color theory, facial traits, and the capacity to visualize the finished product. I've learned precision, inventiveness, and the value of attention to detail from makeup artists. It's a craft that blends artistic intuition with technical proficiency.</li>
+
+        </ul>
+        </div>
+
+</body>
